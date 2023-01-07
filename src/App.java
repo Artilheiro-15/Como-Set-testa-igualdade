@@ -4,6 +4,9 @@ import entities.Product;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
+        //agora deu verdadeiro a resposta porque agr a comparaçao foi feita
+        //por conteudo e nao por referencia de ponteiro do objeto
         System.out.println("==================================");
 
         Set<Product> set = new HashSet<>();
